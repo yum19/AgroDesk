@@ -33,43 +33,43 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
-    GA_main.cpp \
-    GA_mainwindow.cpp \
-    GM_mainwindow.cpp \
-    animaux.cpp \
-    arduino.cpp \
-    connection.cpp \
-    login.cpp \
-    mainwindow_gp.cpp \
-    mainwindow_gs.cpp \
-    matriel.cpp \
-    menu.cpp \
-    produit.cpp \
-    reminder.cpp \
-    section.cpp
+    src/GA_main.cpp \
+    src/GA_mainwindow.cpp \
+    src/GM_mainwindow.cpp \
+    src/animaux.cpp \
+    src/arduino.cpp \
+    src/connection.cpp \
+    src/login.cpp \
+    src/mainwindow_gp.cpp \
+    src/mainwindow_gs.cpp \
+    src/matriel.cpp \
+    src/menu.cpp \
+    src/produit.cpp \
+    src/reminder.cpp \
+    src/section.cpp
 
 HEADERS += \
-    GA_mainwindow.h \
-    GM_mainwindow.h \
-    animaux.h \
-    arduino.h \
-    connection.h \
-    login.h \
-    mainwindow_gp.h \
-    mainwindow_gs.h \
-    matriel.h \
-    menu.h \
-    produit.h \
-    reminder.h \
-    section.h
+    src/GA_mainwindow.h \
+    src/GM_mainwindow.h \
+    src/animaux.h \
+    src/arduino.h \
+    src/connection.h \
+    src/login.h \
+    src/mainwindow_gp.h \
+    src/mainwindow_gs.h \
+    src/matriel.h \
+    src/menu.h \
+    src/produit.h \
+    src/reminder.h \
+    src/section.h
 
 FORMS += \
-    GA_mainwindow.ui \
-    GM_mainwindow.ui \
-    login.ui \
-    mainwindow_gp.ui \
-    mainwindow_gs.ui \
-    menu.ui
+    ui/GA_mainwindow.ui \
+    ui/GM_mainwindow.ui \
+    ui/login.ui \
+    ui/mainwindow_gp.ui \
+    ui/mainwindow_gs.ui \
+    ui/menu.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -77,4 +77,4 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 RESOURCES += \
-    backgrounds.qrc
+    resources/backgrounds.qrc

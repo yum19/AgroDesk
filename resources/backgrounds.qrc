@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file alias="oo.jpg">img/oo.jpg</file>
+        <file alias="sunset-3272462_1920.jpg">img/sunset-3272462_1920.jpg</file>
+        <file alias="wallpaperflare.com_wallpaper.jpg">img/wallpaperflare.com_wallpaper.jpg</file>
+    </qresource>
+</RCC>
