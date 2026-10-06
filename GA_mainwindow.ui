@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1208</width>
+    <height>685</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Gestion des Clients</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>311</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>donnes</string>
+    </property>
+    <widget class="QWidget" name="verticalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>291</width>
+       <height>454</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="label_17">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>id:</string>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+       <widget class="QLineEdit" name="GA_le_id">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>10</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>250</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maxLength">
+         <number>93</number>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="label_16">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>poids:</string>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+       <widget class="QLineEdit" name="GA_le_poids">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>10</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>250</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maxLength">
+         <number>93</number>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="label_15">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>type:</string>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+       <widget class="QLineEdit" name="GA_le_type">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>10</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>250</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maxLength">
+         <number>93</number>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="label_14">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>sexe:</string>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+       <widget class="QLineEdit" name="GA_le_sexe">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>10</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>250</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maxLength">
+         <number>93</number>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="label_11">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>date d'entrer:</string>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QDateEdit" name="GA_le_date_enter"/>
+      </item>
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="label_12">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>date de sortie:</string>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QDateEdit" name="GA_le_date_sortie"/>
+      </item>
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="label_13">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>dernier date de vaccination:</string>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QDateEdit" name="GA_le_dernier_vaccination"/>
+      </item>
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="label_18">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>prochaine date de vaccination:</string>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QDateEdit" name="GA_le_prochaine_vaccination"/>
+      </item>
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="label_19">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>malade (oui ou non):</string>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QLineEdit" name="GA_le_malade">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>10</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>250</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maxLength">
+         <number>93</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QPushButton" name="GA_ajouter">
+          <property name="text">
+           <string>Ajouter</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="GA_modifier">
+          <property name="text">
+           <string>Modifier</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QTabWidget" name="tabWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>120</y>
+      <width>851</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>affichage</string>
+     </attribute>
+     <widget class="QDateEdit" name="dateEdit_6">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>400</y>
+        <width>121</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QTableView" name="GA_tableView1">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>841</width>
+        <height>341</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>Alert des vaccinations</string>
+     </attribute>
+     <widget class="QTableView" name="GA_tableView2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>541</width>
+        <height>281</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="GA_analyzeButton">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>270</y>
+        <width>151</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>analyser le tableau</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>-360</x>
+        <y>-190</y>
+        <width>1241</width>
+        <height>681</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../qt/smart farm back 1 (1).png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>20</y>
+        <width>251</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Alert vaccination des animaux malades</string>
+      </property>
+      <widget class="QLineEdit" name="GA_reminderTextEdit">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>30</y>
+         <width>113</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QDateTimeEdit" name="GA_reminderDateTimeEdit">
+       <property name="geometry">
+        <rect>
+         <x>23</x>
+         <y>90</y>
+         <width>201</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>30</y>
+         <width>56</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>id:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>60</y>
+         <width>121</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>date d'alarm:</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="GA_showRemindersButton">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>170</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>afficher alarm</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="GA_addReminderButton">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>170</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>ajouter alarm</string>
+       </property>
+      </widget>
+     </widget>
+     <zorder>label_4</zorder>
+     <zorder>GA_tableView2</zorder>
+     <zorder>GA_analyzeButton</zorder>
+     <zorder>groupBox_2</zorder>
+    </widget>
+    <widget class="QWidget" name="tab_5">
+     <attribute name="title">
+      <string>maladies</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>251</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>symptomes</string>
+      </property>
+      <widget class="QComboBox" name="GA_comboBox1">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>221</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>symptom1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>aucun</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>fièvre</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>perte d'appétit</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>difficulté respiratoire</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>écoulement nasal</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>éternuements</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>léthargie</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="GA_comboBox2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>221</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>symptom2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>aucun</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>fièvre</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>perte d'appétit</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>difficulté respiratoire</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>écoulement nasal</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>éternuements</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>léthargie</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="GA_comboBox3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>80</y>
+         <width>221</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>symptom3</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>aucun</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>fièvre</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>perte d'appétit</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>difficulté respiratoire</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>écoulement nasal</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>éternuements</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>léthargie</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="GA_calculateProbabilityButton">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>130</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>rechercher</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>-360</x>
+        <y>-180</y>
+        <width>1231</width>
+        <height>661</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../qt/smart farm back 1 (1).png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="GA_resultLineEdit">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>10</y>
+        <width>571</width>
+        <height>61</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QWidget" name="GA_widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>80</y>
+        <width>441</width>
+        <height>331</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="GA_stat">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>300</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>statistique </string>
+      </property>
+     </widget>
+     <zorder>label_3</zorder>
+     <zorder>groupBox_6</zorder>
+     <zorder>GA_resultLineEdit</zorder>
+     <zorder>GA_widget</zorder>
+     <zorder>GA_stat</zorder>
+    </widget>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>arduino</string>
+     </attribute>
+     <widget class="QPushButton" name="GA_manualButton">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>100</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>parcourir</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>140</y>
+        <width>251</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>nombre de fois desirer dans ce mois:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="GA_animalIDLineEdit">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>110</y>
+        <width>113</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>110</y>
+        <width>56</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>id:</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="GA_feedingGoalSpinBox">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>140</y>
+        <width>42</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>-340</x>
+        <y>-160</y>
+        <width>1221</width>
+        <height>631</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../qt/smart farm back 1 (1).png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <zorder>label_7</zorder>
+     <zorder>GA_manualButton</zorder>
+     <zorder>label_9</zorder>
+     <zorder>GA_animalIDLineEdit</zorder>
+     <zorder>label_10</zorder>
+     <zorder>GA_feedingGoalSpinBox</zorder>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>490</y>
+      <width>331</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>supprimer</string>
+    </property>
+    <widget class="QPushButton" name="GA_supprimer">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>80</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Supprimer</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="GA_le_supprimer">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>293</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="maxLength">
+      <number>93</number>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_20">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>293</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>id:</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="GA_quitter">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>580</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>quitter</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>retour</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="GA_lineEditSearch">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>70</y>
+      <width>261</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>70</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>rechercher:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="GA_rechercherButton">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>100</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>chercher</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="GA_comboBoxSort">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>30</y>
+      <width>271</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>trier par:</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>id</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>poids</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>type</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="GA_pdfButton">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>110</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>exporter pdf</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-40</y>
+      <width>1201</width>
+      <height>671</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../qt/smart farm back 1 (1).png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="GA_trierButton">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>60</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>trier</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="GA_comboBoxSearch">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>30</y>
+      <width>271</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>rechercher par:</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>id</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>poids</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>type</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="GA_resetButton">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>110</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>actualiser</string>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>groupBox</zorder>
+   <zorder>tabWidget_2</zorder>
+   <zorder>groupBox_3</zorder>
+   <zorder>GA_quitter</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>GA_lineEditSearch</zorder>
+   <zorder>label_2</zorder>
+   <zorder>GA_rechercherButton</zorder>
+   <zorder>GA_comboBoxSort</zorder>
+   <zorder>GA_pdfButton</zorder>
+   <zorder>GA_trierButton</zorder>
+   <zorder>GA_comboBoxSearch</zorder>
+   <zorder>GA_resetButton</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1208</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

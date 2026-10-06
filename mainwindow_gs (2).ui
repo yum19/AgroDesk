@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainwindow_gs</class>
+ <widget class="QDialog" name="mainwindow_gs">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1225</width>
+    <height>697</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTabWidget" name="aaa">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>50</y>
+     <width>971</width>
+     <height>581</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab_3_GS">
+    <attribute name="title">
+     <string>ajouter</string>
+    </attribute>
+    <widget class="QLineEdit" name="lineEdit_surface_GS">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>190</y>
+       <width>113</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5_GS">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>190</y>
+       <width>101</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>type de sections </string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_type_GS">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>150</y>
+       <width>113</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4_GS">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>150</y>
+       <width>121</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>surface de sections </string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="quitter_GS">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>180</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>quitter</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3_GS">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>110</y>
+       <width>131</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>nom de sections </string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_nom_GS">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>110</y>
+       <width>113</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ajouter_GS">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>120</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ajouter</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_temperature_GS">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>250</y>
+       <width>113</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_mineralLevel_GS">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>310</y>
+       <width>113</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_14_GS">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>250</y>
+       <width>161</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>temperature du sol </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_23_GS">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>310</y>
+       <width>101</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>humidite du sol</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_4_GS">
+    <attribute name="title">
+     <string>afficher</string>
+    </attribute>
+    <widget class="QTableView" name="tableView_GS">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>10</y>
+       <width>631</width>
+       <height>531</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7_GS">
+     <property name="geometry">
+      <rect>
+       <x>-30</x>
+       <y>-50</y>
+       <width>1071</width>
+       <height>711</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../../../Downloads/380628177_1066545568114571_5318339656657064090_n.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2_GS">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>610</y>
+       <width>56</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>nom</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_15_GS">
+     <property name="geometry">
+      <rect>
+       <x>630</x>
+       <y>610</y>
+       <width>56</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>nom</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_16_GS">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>40</y>
+       <width>56</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>nom</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_nom_supp_2_GS">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>40</y>
+       <width>113</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3_GS">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>40</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>supprimer</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_17_GS">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>101</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>le nom a modifier </string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_nom_3_GS">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>90</y>
+       <width>113</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_18_GS">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>130</y>
+       <width>101</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>surface a modifier </string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_type_3_GS">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>130</y>
+       <width>113</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_19_GS">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>170</y>
+       <width>101</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>type a modifier </string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_surface_3_GS">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>170</y>
+       <width>113</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="modifier_2_GS">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>120</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>modifier</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_21_GS">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>310</y>
+       <width>221</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>le nom a chercher </string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBoxAttribut_GS">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>320</y>
+       <width>121</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>rechercher par </string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>nom</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>type</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>surface</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>temperature </string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>surface</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QPushButton" name="chercher_2_GS">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>360</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>chercher</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditSearch_GS">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>380</y>
+       <width>113</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pdf_2_GS">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>410</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>pdf</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBoxAttribut_2_GS">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>450</y>
+       <width>121</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>rechercher par </string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>nom</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>type</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>surface</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>temperature </string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>humidite </string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="label_11_GS">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>340</y>
+       <width>56</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>trier par butt</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="trier_GS">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>510</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>trier</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_temperature_3_GS">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>270</y>
+       <width>113</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_mineralLevel_3_GS">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>220</y>
+       <width>113</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_20_GS">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>220</y>
+       <width>131</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>temperature a modifier </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_22_GS">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>270</y>
+       <width>141</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>humididte a modifier  a modifier </string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_GS">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>570</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>afficher lcd</string>
+     </property>
+    </widget>
+    <zorder>label_7_GS</zorder>
+    <zorder>tableView_GS</zorder>
+    <zorder>label_2_GS</zorder>
+    <zorder>label_15_GS</zorder>
+    <zorder>label_16_GS</zorder>
+    <zorder>lineEdit_nom_supp_2_GS</zorder>
+    <zorder>pushButton_3_GS</zorder>
+    <zorder>label_17_GS</zorder>
+    <zorder>lineEdit_nom_3_GS</zorder>
+    <zorder>label_18_GS</zorder>
+    <zorder>lineEdit_type_3_GS</zorder>
+    <zorder>label_19_GS</zorder>
+    <zorder>lineEdit_surface_3_GS</zorder>
+    <zorder>modifier_2_GS</zorder>
+    <zorder>label_21_GS</zorder>
+    <zorder>comboBoxAttribut_GS</zorder>
+    <zorder>chercher_2_GS</zorder>
+    <zorder>lineEditSearch_GS</zorder>
+    <zorder>pdf_2_GS</zorder>
+    <zorder>comboBoxAttribut_2_GS</zorder>
+    <zorder>label_11_GS</zorder>
+    <zorder>trier_GS</zorder>
+    <zorder>lineEdit_temperature_3_GS</zorder>
+    <zorder>lineEdit_mineralLevel_3_GS</zorder>
+    <zorder>label_20_GS</zorder>
+    <zorder>label_22_GS</zorder>
+    <zorder>pushButton_GS</zorder>
+   </widget>
+   <widget class="QWidget" name="tab_5_GS">
+    <attribute name="title">
+     <string>statist</string>
+    </attribute>
+    <widget class="QLabel" name="label_6_GS">
+     <property name="geometry">
+      <rect>
+       <x>-10</x>
+       <y>-30</y>
+       <width>1101</width>
+       <height>731</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../../../Downloads/380628177_1066545568114571_5318339656657064090_n (1).png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="displayTypeStatistics_GS">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>80</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>stat</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="displayTypeStatistics_2_GS">
+     <property name="geometry">
+      <rect>
+       <x>740</x>
+       <y>180</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>analyse</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditTemperature_GS">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>170</y>
+       <width>113</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditMineralLevel_GS">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>220</y>
+       <width>113</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_12_GS">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>220</y>
+       <width>151</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>lineEditMineralLevel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_13_GS">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>170</y>
+       <width>131</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>lineEditTemperature</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="displayTypeStatistics_4_GS">
+     <property name="geometry">
+      <rect>
+       <x>740</x>
+       <y>240</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>conseil</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_6_GS">
+    <attribute name="title">
+     <string>modifier</string>
+    </attribute>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>-290</x>
+       <y>-190</y>
+       <width>1341</width>
+       <height>851</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../../../Downloads/380628177_1066545568114571_5318339656657064090_n (1).png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_7">
+    <attribute name="title">
+     <string>trier</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="tab_8">
+    <attribute name="title">
+     <string>insertion pdf </string>
+    </attribute>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>-50</x>
+       <y>-150</y>
+       <width>1101</width>
+       <height>731</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../../../Downloads/380628177_1066545568114571_5318339656657064090_n (1).png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_9">
+    <attribute name="title">
+     <string>chercher</string>
+    </attribute>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
